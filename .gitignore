@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/analytics-ui/dist
+/analytics-ui/dist-server
+/analytics-ui/tmp
+/analytics-ui/out-tsc
+/analytics/*.csv
+# dependencies
+/analytics-ui/node_modules
+
+# IDEs and editors
+/analytics-ui/.idea
+/analytics-ui/.project
+/analytics-ui/.classpath
+/analytics-ui/.c9/
+/analytics-ui/*.launch
+/analytics-ui/.settings/
+/analytics-ui/*.sublime-workspace
+
+# IDE - VSCode
+/analytics-ui/.vscode/*
+/analytics-ui/!.vscode/settings.json
+/analytics-ui/!.vscode/tasks.json
+/analytics-ui/!.vscode/launch.json
+/analytics-ui/!.vscode/extensions.json
+
+# misc
+/analytics-ui/.sass-cache
+/analytics-ui/connect.lock
+/analytics-ui/coverage
+/analytics-ui/libpeerconnection.log
+/analytics-ui/npm-debug.log
+/analytics-ui/yarn-error.log
+/analytics-ui/testem.log
+/analytics-ui/typings
+
+# e2e
+/analytics-ui/e2e/*.js
+/analytics-ui/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
